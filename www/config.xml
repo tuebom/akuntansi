@@ -37,21 +37,21 @@
   
   <!--<plugin name="cordova-plugin-camera" source="npm" />
   <plugin name="cordova-plugin-media-capture" spec="^6.3.0" />-->
-  <gap:plugin name="cordova-plugin-admobpro" source="npm" />
-  <gap:plugin name="cordova-plugin-console" source="npm" />
+  <plugin name="cordova-plugin-admobpro" source="npm" />
+  <plugin name="cordova-plugin-console" source="npm" />
   <plugin name="cordova-plugin-contacts" spec="~3.0.1" />
-  <gap:plugin name="cordova-plugin-device" source="npm" />
-  <gap:plugin name="cordova-plugin-dialogs" source="npm" />
-  <gap:plugin name="cordova-plugin-file" source="npm" />
-  <gap:plugin name="cordova-plugin-sqlite-2" spec="~1.0.4" />
-  <!--<gap:plugin name="cordova-plugin-file-transfer" source="npm" />-->
+  <plugin name="cordova-plugin-device" source="npm" />
+  <plugin name="cordova-plugin-dialogs" source="npm" />
+  <plugin name="cordova-plugin-file" source="npm" />
+  <plugin name="cordova-plugin-sqlite-2" spec="~1.0.4" />
+  <!--<plugin name="cordova-plugin-file-transfer" source="npm" />-->
   <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
-  <gap:plugin name="cordova-plugin-globalization" source="npm" />
-  <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-  <!--<gap:plugin name="cordova-plugin-media" spec="^6.3.0" />-->
-  <gap:plugin name="cordova-plugin-network-information" source="npm" />
-  <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
-  <gap:plugin name="cordova-plugin-vibration" source="npm" />
+  <plugin name="cordova-plugin-globalization" source="npm" />
+  <plugin name="cordova-plugin-inappbrowser" source="npm" />
+  <!--<plugin name="cordova-plugin-media" spec="^6.3.0" />-->
+  <plugin name="cordova-plugin-network-information" source="npm" />
+  <plugin name="cordova-plugin-splashscreen" source="npm" />
+  <plugin name="cordova-plugin-vibration" source="npm" />
   
   <!--<icon src="img/icon/icon.png"/>-->
   <platform name="android">
