@@ -8,33 +8,31 @@
             <span class="ios-only">Back</span>
           </a>
         </div>
-        <div class="title">Daftar Perkiraan Level 2</div>
+        <div class="title">{{data.title}}</div>
       </div>
     </div>
     <div class="page-content">
+
       <div class="card data-table">
         <table>
           <thead>
             <tr>
               <th class="label-cell">Kode</th>
               <th class="label-cell">Nama</th>
-              <th class="label-cell">Posisi</th>
+              <th class="numeric-cell">Harga</th>
             </tr>
           </thead>
           <tbody>
-          {{#each rek.data}}
+            {{#each data.list}}
             <tr>
               <td class="label-cell">{{this.kode}}</td>
               <td class="label-cell">{{this.nama}}</td>
-              <td class="label-cell">{{this.dk}}</td>
+              <td class="numeric-cell">{{this.hjual}}</td>
             </tr>
-          {{/each}}
+            {{/each}}
           </tbody>
         </table>
       </div>
     </div>
   </div>
 </template>
-<script>
-  return {}
-</script>
